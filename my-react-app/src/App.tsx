@@ -1,10 +1,11 @@
-import './index.css'
+import './index.scss'
+import { Home } from './pages/Home'
 
 function App() {
 
   return (
     <div>
-      "OLÁ MUNDO"
+      <Home/>
     </div>
   )
 }
